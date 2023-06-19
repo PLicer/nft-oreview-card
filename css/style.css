@@ -1,0 +1,123 @@
+body{
+  background-color:hsl(217, 54%, 11%);
+  text-align: center;
+}
+img{
+  width: 250px;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+main{
+  background-color: hsl(216, 50%, 16%);
+  width: 250px;
+  margin:0px auto 0 auto ;
+  padding-right: 40px;
+  padding-top: 300px ;
+  margin-top: -270px;
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+p{
+  margin-right: 62px;
+  margin-top: -15px;
+  color:white;
+  font-size: 18px;
+  font-family: 'outfit';
+  font-weight: 600;
+  padding-bottom:13px;
+}
+main ul{
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+main li
+{
+  margin-top: -20px;
+  color: hsl(215, 51%, 70%);
+  margin-left: -20px;
+  margin-right: -15px;
+  font-size: 15px;
+  font-family: 'outfit';
+  margin-bottom: 20px;
+  text-align: left;
+}
+.first
+{
+ color:hsl(178, 100%, 50%);
+ font-size: 15px;
+ font-weight: 800;
+ margin-left: -36px;
+
+}
+.second
+{
+  margin-right: 10px;
+
+}
+.img1{
+  margin-top: 20px;
+  margin-right: 6px ;
+  width: 8px;
+}
+.img2{
+  margin-top: 20px;
+  margin-right: 6px ;
+  width: 15px;
+}
+main .hi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  border-bottom: 2px solid rgba(100,100,100,0.5);
+}
+.top
+{
+  margin-right: -20px;
+  margin-left: 20px;
+}
+.end img{
+  margin-top: 0px;
+  margin-left:-200px;
+  width: 40px;
+  background-color: aliceblue;
+  padding: 2px;
+  border-radius: 50px;
+}
+.end li{
+  margin-left: 40px;
+  margin-top: -35px;
+  font-size: 15px;
+}
+span
+{
+  color: aliceblue;
+}
+.eye img
+{
+  position: relative;
+  right: -20px;
+  padding: 100px;
+  top: -50px;
+  width: 50px;
+  margin-top: -400px;
+  background-color: hsla(178, 100%, 50%,0.5);
+  opacity: 0;
+
+}
+.eye img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+span:hover
+{
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+p:hover
+{
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+  
+}
